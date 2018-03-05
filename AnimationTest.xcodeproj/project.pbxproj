@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		469149742019033A00088D11 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469149732019033A00088D11 /* UIViewExtension.swift */; };
+		469DF0A1204DE07300471283 /* MixedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DF0A0204DE07300471283 /* MixedAnimation.swift */; };
+		469DF0A3204DE07800471283 /* SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DF0A2204DE07800471283 /* SimpleAnimation.swift */; };
+		469DF0A5204DE08100471283 /* ChainedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DF0A4204DE08100471283 /* ChainedAnimation.swift */; };
+		469DF0A7204DE8A200471283 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DF0A6204DE8A200471283 /* Animation.swift */; };
 		46FB87E620178CF0001D307B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB87E520178CF0001D307B /* AppDelegate.swift */; };
 		46FB87E820178CF0001D307B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB87E720178CF0001D307B /* ViewController.swift */; };
 		46FB87EB20178CF0001D307B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FB87E920178CF0001D307B /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		469149732019033A00088D11 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		469DF0A0204DE07300471283 /* MixedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedAnimation.swift; sourceTree = "<group>"; };
+		469DF0A2204DE07800471283 /* SimpleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimation.swift; sourceTree = "<group>"; };
+		469DF0A4204DE08100471283 /* ChainedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedAnimation.swift; sourceTree = "<group>"; };
+		469DF0A6204DE8A200471283 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		46FB87E220178CF0001D307B /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FB87E520178CF0001D307B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FB87E720178CF0001D307B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +49,10 @@
 			isa = PBXGroup;
 			children = (
 				469149732019033A00088D11 /* UIViewExtension.swift */,
+				469DF0A0204DE07300471283 /* MixedAnimation.swift */,
+				469DF0A2204DE07800471283 /* SimpleAnimation.swift */,
+				469DF0A4204DE08100471283 /* ChainedAnimation.swift */,
+				469DF0A6204DE8A200471283 /* Animation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -149,7 +161,11 @@
 			files = (
 				469149742019033A00088D11 /* UIViewExtension.swift in Sources */,
 				46FB87E820178CF0001D307B /* ViewController.swift in Sources */,
+				469DF0A1204DE07300471283 /* MixedAnimation.swift in Sources */,
+				469DF0A5204DE08100471283 /* ChainedAnimation.swift in Sources */,
 				46FB87E620178CF0001D307B /* AppDelegate.swift in Sources */,
+				469DF0A7204DE8A200471283 /* Animation.swift in Sources */,
+				469DF0A3204DE07800471283 /* SimpleAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
